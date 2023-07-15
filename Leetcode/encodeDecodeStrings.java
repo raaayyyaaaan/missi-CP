@@ -8,10 +8,7 @@ public class encodeDecodeStrings {
     public static void main(String[] args) {
 		String[] strs = {"lint","code","love",",,,","you"};
 		List<String> strss = Arrays.asList(strs);
-		System.out.println(decode(encode(strss)));
-    	
-
-		
+		System.out.println(decode(encode(strss)));		
 	}
     
 	public static String encode(List<String> strs) {
