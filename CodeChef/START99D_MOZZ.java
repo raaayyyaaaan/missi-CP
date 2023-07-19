@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class START99D_MOZZ {
     public static void main(String[] args) {
     	Scanner sc = new Scanner(System.in);
-//    	int t = sc.nextInt();
-//    	while (t-- > 0) {
+    	int t = sc.nextInt();
+    	while (t-- > 0) {
     		int x = sc.nextInt();
     		int y = sc.nextInt();
     		int r = sc.nextInt();
@@ -18,6 +18,6 @@ public class START99D_MOZZ {
     		int n = tot/y;
     		if (tot%y != 0) n++;
     		System.out.println(n);
-//    	}
+    	}
     }
 }
