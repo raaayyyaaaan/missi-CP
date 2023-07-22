@@ -18,6 +18,7 @@ public class START99D_MOZZ {
     		int n = tot/y;
     		if (tot%y != 0) n++;
     		System.out.println(n);
+
     	}
     }
 }
