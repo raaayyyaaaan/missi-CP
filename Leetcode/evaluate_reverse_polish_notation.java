@@ -16,19 +16,19 @@ public class evaluate_reverse_polish_notation {
     	Stack <Integer> stack = new Stack<>();
     	int a;
     	for (String i : tokens) {
-    		if (i == "-") {
+    		if (i.equals("-")) {
     			a = stack.pop();
     			stack.push(stack.pop() - a);
     		}
-    		else if (i == "+") {
+    		else if (i.equals("+")) {
     			a = stack.pop();
     			stack.push(stack.pop() + a);
     		}
-    		else if (i == "/") {
+    		else if (i.equals("/")) {
     			a = stack.pop();
     			stack.push(stack.pop() / a);
     		}
-    		else if (i == "*") {
+    		else if (i.equals("*")) {
     			a = stack.pop();
     			stack.push(stack.pop() * a);
     		}
