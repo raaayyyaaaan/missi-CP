@@ -15,9 +15,7 @@ public class CF_1855_A {
     		int count = 0;
     		for (int i : list) {
     			if (i != list.indexOf(i)+1) continue;
-    			else {
-    				count++;
-    			}
+    			else count++;
     		}
     		if (count % 2 == 0) count = count/2;
     		else count = count/2 + 1;
