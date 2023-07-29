@@ -7,19 +7,29 @@ public class CF_1855_A {
     	Scanner sc = new Scanner(System.in);
     	int t = sc.nextInt();
     	while (t-- > 0) {
-    	List<Integer> list = new ArrayList<>();
-    		int n = sc.nextInt();
-    		while (n-- > 0) {
-    			list.add(sc.nextInt());
-    		}
+//    	List<Integer> list = new ArrayList<>();
+//    		int n = sc.nextInt();
+//    		while (n-- > 0) {
+//    			list.add(sc.nextInt());
+//    		}
+//    		int count = 0;
+//    		for (int i : list) {
+//    			if (i != list.indexOf(i)+1) continue;
+//    			else count++;
+//    		}
+//    		if (count % 2 == 0) count = count/2;
+//    		else count = count/2 + 1;
+//    		System.out.println(count);
     		int count = 0;
-    		for (int i : list) {
-    			if (i != list.indexOf(i)+1) continue;
+    		int n = sc.nextInt();
+    		for(int i = 1; i < n+1; i++) {
+    			if(sc.nextInt() != i) continue;
     			else count++;
     		}
     		if (count % 2 == 0) count = count/2;
     		else count = count/2 + 1;
     		System.out.println(count);
+    		
     		
     	}
     }
