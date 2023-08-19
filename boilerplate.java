@@ -6,7 +6,7 @@ public class boilerplate {
 //    	Scanner sc = new Scanner(System.in);
 //    	int t = sc.nextInt();
 //    	while (t-- > 0) {
-    		
+//    		
 //    	}
     }
 }
