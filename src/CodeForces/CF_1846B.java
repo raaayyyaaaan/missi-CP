@@ -1,8 +1,8 @@
 package CodeForces;
 
-import java.util.*;
 import java.io.*;
- 
+import java.util.Scanner;
+
 public class CF_1846B {
     public static void main(String[] args) {
     	Scanner sc = new Scanner(System.in);
